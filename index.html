@@ -33,15 +33,19 @@
 
       <!-- Any section element inside of this container is displayed as a slide -->
       <div class="slides">
-        <section>
+    <section>
           <h1>Implementing TBL Activities</h1>
-          <h2>Winter 2014 ITLAL TBL Seminar</h2>
+          <h2>
+    <font color="#0000ff">Winter 2014 ITLAL TBL Seminar</font>
+    </h2>
           <p>
-            <small>Created by <a href="INSERT YOUR PUBLIC HTML AUTHOR PAGE">M Alexander Jurkat</a></small>
+            <small>Created by <a href="INSERT YOUR PUBLIC HTML AUTHOR PAGE">M Alexander 
+
+Jurkat</a>
+    </small>
           </p>
         </section>
-
-        <section>
+    <section>
         <div>
           <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">
           <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png">&nbsp;</a>
@@ -57,24 +61,149 @@
 </div>
         <div>and is licensed under</div>
         <div>
-<a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a>
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons 
+
+Attribution 3.0 Unported License</a>
 </div>
         <div>
 <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>
 </div>
       </section>
-
-        <section>
-          <h3>CRUD</h3>
-	  <p>Functions of a database:<p>
+    <section>
+          <h2>CRUD</h2>
+	  <p>Functions of a database:</p>
+    <p>
+    <font color="#0000ff">Create:</font> Insert data.</p>
+    <p>
+    <font color="#0000ff">Read:</font> Query data.</p>
+    <p>
+    <font color="#0000ff">Update: </font>Modify data.</p>
+    <p>
+    <font color="#0000ff">Delete:</font> Remove data.</p>
+    <p>
+        </p>
+</section>
+<section>
+    <h2>Relational = SQL</h2>
+    <div>
+        <div>SQL (SEE-quill), short for Structured Query Language, is a special-purpose programming language designed for managing data held in a relational database management systems (RDBMS).</div>
+    </div>
+</section>
+<section>
+          <h3>Inserting Records (Create)</h3>
+<div>
+    <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/malexanderjurkat/images/211437/inserttable.png">
+    <br>
+</div>
+<div>
+    <div>
+        <font color="#0000ff">Task:</font> Which SQL statement adds one employee record?</div>
+        <div>
+            <font color="#0000ff">A.</font> INSERT INTO Staff VALUES (“SA4”, “Brown”, “Assistant”, 8300, “B007”, “16 Argyll St., Aberdeen”);</div>
+            <div>
+                <font color="#0000ff">B.</font> INSERT INTO Staff (staffNo, sName, branchNo) VALUES (“SA4”, “Alan Brown”, “B007”);</div>
+                <div>
+                    <font color="#0000ff">C.</font> INSERT INTO Staff VALUES (“SA4”, “Alan Brown”, “Assistant”, NULL, “B007”, “16 Argyl Rd., Aberdeen”);</div>
+                </div>
+                <div>
+                    <br>
+                    </div>
         </section>
+                    <section>
+                        <h2>Modifying Records (Update)</h2>
+                        <div>
+                            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/malexanderjurkat/images/211439/updatetable.png">
+                            <br>
+                        </div>
+                        <div>
+                            <div>Task: Which SQL statement properly adjusts an address?</div>
+                            <div>A. UPDATE Staff SET bAddress = “195 Post Rd., Glasgow” WHERE staffNo = “SG37”;</div>
+                            <div>B. UPDATE Staff SET bAddress = “195 Post Rd., Glasgow”;</div>
+                            <div>C. UPDATE Staff SET bAddress = “195 Post Rd., Glasgow” WHERE branchNo = “B003”;</div>
+                        </div>
+                    </section>
+                    <section>
+                        <h2>Removing Records (Delete)</h2>
+                        <div>
+                            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/malexanderjurkat/images/211440/deletetable.png">
+                            <br>
+                        </div>
+                        <div>
+                            <div>Task: Which SQL statement properly deletes a staff record?</div>
+                            <div>A. DELETE FROM Staff WHERE staffNo = “SA9”;&nbsp;</div>
+                            <div>B. DELETE FROM Staff;</div>
+                            <div>C. DELETE FROM Staff WHERE position = “Assistant”;</div>
+                        </div>
+                    </section>
+                    <section>
+                        <h2>A Treasure of Personal Data</h2>
+                        <div>
+                            <div>Think about your smartphone and all the things you do with it each day. What kind of data about you does it contain?</div>
+                            <div>Task: Discuss and agree on three kinds of data or pieces of information about you that are recorded in your smartphone. You can’t list your phone number.</div>
+                        </div>
+                    </section>
+                    <section>
+                        <h2>Intellectual Property</h2>
+                        <div>
+                            <div>
+                                <font color="#0000ff">Copyright</font>
+                            </div>
+                            <div>Exclusive rights on the use of expression of ideas</div>
+                            <div>
+                                <font color="#0000ff">Patent</font>
+                            </div>
+                            <div>Exclusive rights on non-obvious, useful, new ideas</div>
+                            <div>
+                                <font color="#0000ff">Trademark</font>
+                            </div>
+                            <div>Exclusive rights to names, logos, symbols for a particular business use</div>
+                            <div>
+                                <font color="#0000ff">Trade Secret</font>
+                            </div>
+                            <div>Exclusive rights to formula, practice, process</div>
+                        </div>
+                    </section>
+                    <section>
+                        <h2>How do I protect?</h2>
+                        <div>
+                            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/malexanderjurkat/images/211442/disney.png">
+                            <br>
+                        </div>
+                        <div>
+                            <div>A. Copyright</div>
+                            <div>B. Patent</div>
+                            <div>C. Trademark</div>
+                            <div>D. Trade Secret</div>
+                        </div>
+                    </section>
+                    <section>
+                        <h2>How do I protect?</h2>
+                        <div>
+                            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/malexanderjurkat/images/211448/machine.png">
+                            <br>
+                        </div>
+                        <div>
+                            <div>A. Copyright</div>
+                            <div>B. Patent</div>
+                            <div>C. Trademark</div>
+                            <div>D. Trade Secret</div>
+                        </div>
+                    </section>
+                    <section>
+                        <h2>How do I protect?</h2>
+                        <div>
+                            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/malexanderjurkat/images/211454/code.png">
+                            <br>
+                        </div>
+                        <div>
+                            <div>A. Copyright</div>
+                            <div>B. Patent</div>
+                            <div>C. Trademark</div>
+                            <div>D. Trade Secret</div>
+                        </div>
+                    </section>
+                </div>
 
-        <section>
-          <h3>Slide #2</h3>
-        </section>
-
-
-      </div>
 
     </div>
 

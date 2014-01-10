@@ -1,7 +1,7 @@
-Encounter Template
-==================
+Winter 2014 ITLAL TBL Seminar -- Activities
+======================================
 
-Basic template to create learning encounters with Reveal.js.
+This encounter addresses TBL activity construction for the ITLAL TBL seminar in the winter 2014.
 
 
 The content of this repository is copyrighted by contributors and it is distributed under the following licenses.
@@ -15,7 +15,7 @@ All Works of Art are licensed under the Creative Commons by Attribution 4.0 Lice
 Current Author
 ==============
 
-INSERT AUTHOR NAME HERE
+M Alexander Jurkat
 
 
 Abstract
